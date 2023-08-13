@@ -1,0 +1,21 @@
+/** @format */
+
+.movies-header {
+	padding: 0 30px;
+	display: flex;
+	justify-content: space-between;
+	gap: 1rem;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.movies-header button {
+	background-color: #333333;
+	padding: 10px 10px;
+	font-size: 1rem;
+	color: white;
+	border: 1px solid;
+	border-radius: 5px;
+}
+.movies-header button:active {
+	background-color: #666666;
+}

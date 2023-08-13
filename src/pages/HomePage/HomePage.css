@@ -1,0 +1,25 @@
+/** @format */
+
+.movies-list ul {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
+	flex: 1;
+	justify-content: center;
+	align-items: center;
+	/* text-align: left; */
+}
+.add-new-movie-modal {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	margin: auto;
+	inset: 0;
+	background-color: white;
+	height: fit-content;
+	width: fit-content;
+	padding: 20px;
+	z-index: 5;
+	box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.2);
+}
